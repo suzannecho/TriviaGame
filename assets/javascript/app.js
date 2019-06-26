@@ -11,7 +11,7 @@ var triviaQuestions = [{
 	answerList: ["Pochahontas", "Elsa", "Cinderella", "Mulan"],
 	answer: 0
 },{
-	question: "What is the name of Mulan’s pet dragon??",
+	question: "What is the name of Mulan’s pet dragon?",
 	answerList: ["Jessie", "Repunzel", "Mushu", "Merida"],
 	answer: 2
 },{
@@ -40,7 +40,7 @@ var triviaQuestions = [{
 	answer: 3
 }];
 
-var gifArray = ['question1', 'question2', 'question3', 'question4', 'question5', 'question6', 'question7', 'question8', 'question9', 'question10' ];
+var gifArray = ['question1', 'question2', 'question3', 'question4', 'question5', 'question6', 'question7', 'question8', 'question9', 'question10'];
 var currentQuestion; var correctAnswer; var incorrectAnswer; var unanswered; var seconds; var time; var answered; var userSelect;
 var messages = {
 	correct: "Yes, that's right!",
