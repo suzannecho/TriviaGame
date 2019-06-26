@@ -11,12 +11,15 @@
 
 <body>
     <header>
-      <h1>A Disney Trivia!</h1>
-        <img src='assets/images/Disney-image.jpg' alt='headerImg' height=850px; width='100%'>
+       <div class="container3">
+      <h1><strong>A Disney Trivia!</h1></strong>
+              <img src='assets/images/Disney-image.jpg' alt='headerImg' height=850px; width='100%'>
     </header>
+  </div>
     <div class='container'>
         <button class='btn btn-primary' id='startBtn'>Start</button>
         <!-- Question page -->
+        <div class="container2">
         <div id=timeLeft></div>
         <div id=currentQuestion></div>
         <div class='question'></div>
@@ -32,6 +35,7 @@
         <div id=unanswered></div>
         <div id='startOverBtn'></div>
     </div>
+    
     <script src="https://code.jquery.com/jquery.js"></script>
     <script type="text/javascript" src="assets/javascript/app.js"></script>
 </body>

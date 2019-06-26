@@ -1,5 +1,5 @@
 body{
-	background: url('../images/Trivia-background.jpeg');
+	background: url('../images/Trivia-background.jpg');
 
 	font-size: 25px;
 }
@@ -28,6 +28,18 @@ header{
 	height: 100%;
 	width: 700px;
 }
+
+.container2{
+  background-color: cyan;
+  text-align:center;
+  border: 3px solid black
+}
+.container3{
+  background-color: lightseagreen;
+  text-align:center;
+  border: 5px solid black;
+  
+}
  h1 {
    text-align: center;
    font-style: bold;
@@ -39,13 +51,13 @@ h2, #message, #finalMessage{
 }
 
 .thisChoice:hover{
-	background-color: skyblue;
-	color: indigo;
+	background-color: slateblue;
+	color: white;
 	padding: 10px;
 }
 
 #gif{
-	margin: 30px;
+	margin: 50px;
 }
 
 @media screen and (max-width:640px){
